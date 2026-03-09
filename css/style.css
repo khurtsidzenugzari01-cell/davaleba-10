@@ -93,6 +93,7 @@
     align-items: center; 
 }
 .get{
+    width: 90%;
     border-radius: 100px;
     background-color:#5D50C6 ;
     color: #EEEEEE;
@@ -112,6 +113,7 @@
     margin-top: 43px;
 }
 .demno{
+
     font-size: 14px;
     color: #000000;
 
@@ -141,8 +143,8 @@
 }
 .eroow{
     display: flex;
-    width: 232px;
     height: 100px;
+    column-gap: 30px;
 }
 .i-1{
     background-color: #5D50C6;
@@ -156,16 +158,99 @@
     width: 90%;
     height:100px;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .Top-1{
+    width: 100%;
   color: #F85E9F;
   font-size: 23px;
    text-align: left;
 }
 .top-2{
+    width: 100%;
     color: #191825;
     font-size: 44px;
 }
+.Beach-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 1184px;
+    width: 100%; 
+    gap: 30px;
+}
+.Beach{
+    width: 100%;
+    height: 359px;
+}
+.Paradise{
+    display: flex;
+    justify-content: space-between;
+}
+.Paradise-1{
+    color: #F85E9F;
+}
+.rom{
+    font-size: 14px;
+    color: #191825BF;
+    text-align: left;
+    margin-top: 10px;
+}
+.travel{
+    width: 90%;
+    height: 697px;
+}
+.travel-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 1312px;
+} 
+.travel-5{
+ width: 90%;
+ column-gap: 30px;
+}
+.holiday{
+    display: flex;
+   column-gap: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.travel-2{
+    color: #F85E9F;
+    font-size: 23px;
+    gap:16px;
+}
+.travel-3{
+    color: #000000;
+    font-size: 44px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.travel-4{
+    color:#19182580 ;
+    font-size: 18px;
+}
+.premium{
+    display: flex;
+   column-gap: 30px;
+}
+.hol{  
+    padding-top: 30px;
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #EEEEEE;
+}
+.hol-1{
+    color: #F85E9F;
+}
+
 @media(max-width: 1024px){
     .navigation{
         display: none;
@@ -194,8 +279,26 @@
     .h2{
         font-size: 56px;
     }
+     .Explore{
+        margin-top: 100px;
+        margin-top: 100px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .Beach-1{
+      width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    }
+    .travel-1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px){
     .logo{
         order: 1;
     }
@@ -207,16 +310,34 @@
     }
     .h2{
         font-size: 40px;
+        width: 100%;
     }
     .Explore{
-        row-gap: 100px;
+        margin-top: 100px;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-}
-@media (max-width: 500px){
-     .logo{
+    .eroow{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .container-1{
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+    .get{
+        width: 100%;
+        height: 40px;
+    }
+    .demno{
+        width: 100%;
+        display: flex; 
+        text-align: center;
+        align-items: center;
+    }
+    .logo{
         order: 1;
     }
     .burger-bar{
@@ -228,4 +349,16 @@
     .div{
         display: none;
     }
+    .Beach-1{
+    flex-direction: column;
+    row-gap: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.hol{
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+}
 }
