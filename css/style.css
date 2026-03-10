@@ -63,10 +63,10 @@
     row-gap: 3px;
 }
 .left-div{
-   width: 90%;
+   width: 100%;
 }
-.rigth-div{
-    width:90%;
+.right-div{
+    width:100%;
 }
 .container{
     max-width: 1184px;
@@ -85,6 +85,10 @@
     font-size: 69px;
     color:#F85E9F ;
 }
+.we{
+    font-size: 18px;
+    width: 442px;
+}
 .container-1{
     width:338px;
     height: 56px;
@@ -101,24 +105,36 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    width: 141px;
+    width: 140px;
     height: 49px;
     margin-top: 43px;
 }
 .watch{
+     width: 140px;
+    height: 49px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 48px;
+    margin-left: px;
     margin-top: 43px;
+    background-color: #EEEEEE;
+    border-radius: 100px;
 }
 .demno{
-
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 90%;
     font-size: 14px;
     color: #000000;
 
 }
 .rigth-div{
+   width: 774px;
+   width: 100%;
+}
+.div-1{
     width: 100%;
 }
 .solid{
@@ -177,19 +193,36 @@
     justify-content: center;
     text-align: center;
     max-width: 1184px;
-    width: 100%; 
+    width: 90%; 
     gap: 30px;
 }
-.Beach{
-    width: 100%;
-    height: 359px;
+.beach{
+    width: 373.33;
+    height: 575px;
+    text-align: center;
+    align-items: center;
+    align-items: center;
 }
+.bea-1{
+ margin-top: 40px;
+width: 90%;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
 .Paradise{
+    text-align: left;
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 .Paradise-1{
     color: #F85E9F;
+}
+.img{
+    text-align: left;
 }
 .rom{
     font-size: 14px;
@@ -198,19 +231,19 @@
     margin-top: 10px;
 }
 .travel{
-    width: 90%;
+    width:871px;
     height: 697px;
 }
 .travel-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 1312px;
 } 
 .travel-5{
  width: 90%;
  column-gap: 30px;
+ width: 441px;
+ height:667px;
 }
 .holiday{
     display: flex;
@@ -233,6 +266,9 @@
     color:#19182580 ;
     font-size: 18px;
 }
+.tra-2{
+    width: 100%;
+}
 .premium{
     display: flex;
    column-gap: 30px;
@@ -250,11 +286,97 @@
 .hol-1{
     color: #F85E9F;
 }
+.Paradise{
+    margin-left: 20px;
+}
+.rom{
+    margin-left: 20px;
+}
+.img{
+    margin-left: 20px;
+}
+.key{
+    max-width: 1312px;
+    height: 871px;
+}
+.key-2{
+    align-items: center;
+    justify-content: center;
+    max-width:1312px;
+    height: 187px;
+    width: 90%;
+   margin-top: 330px;
+   margin-left: 26px;
+}
+.key-3{
+    color: #F85E9F;
+    font-size: 23px;
+    
+}
+.key-4{
+    color: #000000;
+    font-size: 44px;
+    margin-top: 30px;
+}
+.key-5{
+    color: Grey;
+   font-size: 16px;
+   margin-top: 30px;
+}
+.we{
+    display: flex;
+    width: 1312px;
+}
+.we-3{
+    width: 60px;
+    height: 60px;;
+}
+.offer{
+    color: #000000;
+    font-size:23px ;
+}
+.lorem{
+    color: gray;
+    font-size: 18px;
+}
+.schedule{
+    display: flex;
+    width: 1312px;
+}
+.sche-2{
+    width: 60px;
+    height: 60px;
+}
+.sche-3{
+    color: #000000;
+    font-size: 23px;
+}
+.sche-4{
+    color: gray;
+    font-size: 18px;
+}
+.disco-1{
+    width: 1312px;
+    display: flex;
+
+}
+.disco-2{
+    width: 60px;
+    height: 60px;
+}
+.disco-3{
+    color: #000000;
+    font-size: 23px;
+}
+.disco-4{
+    color: gray;
+    font-size: 18px;
+}
+
 
 @media(max-width: 1024px){
     .navigation{
         display: none;
-        
     }
     .burger-bar{
         display: flex;
@@ -277,10 +399,18 @@
         align-items: center;
     }
     .h2{
+        font-size: 40px;
+    }
+    .right-div{
+        width: 100%;
+    }
+    .h2{
+        font-size: 56px;
+    }
+    .top{
         font-size: 56px;
     }
      .Explore{
-        margin-top: 100px;
         margin-top: 100px;
         flex-direction: column;
         text-align: center;
@@ -296,9 +426,41 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
+        width: 896px; 
+        height: 1469px;
+        width: 90%;
     }
+    .hol{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 832px;
+        width: 334px;
+    }
+    .hol-5{
+        width: 100%;
+    }
+    .tra-2{
+        width: 100%;
+    }
+    .key-2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width:832px;
+    height: 580px;
+    width: 100%;
+}
+
+
+
+
 }
 @media (max-width: 500px){
+    .right-div{
+        width: 100%;
+    }
     .logo{
         order: 1;
     }
@@ -313,12 +475,37 @@
         width: 100%;
     }
     .Explore{
+        width: 398px;
+        height: 169px;
         margin-top: 100px;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
+    .Top-1{
+        width: 398px;
+        height: 19px;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-2{
+        font-size: 32px;
+        width: 388px;
+        height: 72px;
+    }
+    .solid{
+        width: 69px;
+        height: 69px;
+    }
+    .solid-1{
+        width: 69px;
+        height: 69px;
+    }
     .eroow{
+        width: 69px;
+        height: 69px;
         width: 100%;
         justify-content: space-between;
     }
@@ -328,14 +515,20 @@
         height: 200px;
     }
     .get{
+        text-align: center;
+        align-items: center;
         width: 100%;
         height: 40px;
     }
-    .demno{
+    .watch{
         width: 100%;
+        height: 40px;
         display: flex; 
         text-align: center;
         align-items: center;
+    }
+    .demno{
+        padding-left: 130px;
     }
     .logo{
         order: 1;
@@ -361,4 +554,41 @@
      text-align: center;
      align-items: center;
 }
+.travel-1{
+    width: 90%;
+    width: 398px;
+    height: 1351.49px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tra-2{
+    width: 90%;
+}
+.holiday{
+    margin-left:30px ;
+    width: 398px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+}
+.premium{
+    width: 398px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+    margin-left: 30px;
+}
+ .key{
+    height: 905px;
+    max-width: 398px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 }
