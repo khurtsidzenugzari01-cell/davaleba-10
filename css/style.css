@@ -298,6 +298,8 @@ align-items: center;
 .key{
     max-width: 1312px;
     height: 871px;
+    align-items: center;
+    justify-content: center;
 }
 .key-2{
     align-items: center;
@@ -323,9 +325,16 @@ align-items: center;
    font-size: 16px;
    margin-top: 30px;
 }
+.wer-1{
+    max-width: 1312px;
+    height: 492px;
+    width: 90%;
+    margin-left: 30px;
+}
 .we{
     display: flex;
-    width: 1312px;
+    max-width: 1312px;
+    width: 90%;
 }
 .we-3{
     width: 60px;
@@ -355,11 +364,6 @@ align-items: center;
     color: gray;
     font-size: 18px;
 }
-.disco-1{
-    width: 1312px;
-    display: flex;
-
-}
 .disco-2{
     width: 60px;
     height: 60px;
@@ -371,9 +375,30 @@ align-items: center;
 .disco-4{
     color: gray;
     font-size: 18px;
+} 
+.conte-2{
+    max-width: 1184px;
+    height: 434;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
 }
-
-
+.cont-1{
+    max-width: 560px;
+    width: 90%;
+}
+.about-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.com-9{
+    font-size: 23px;
+    color:#191825;
+}
 @media(max-width: 1024px){
     .navigation{
         display: none;
@@ -452,8 +477,33 @@ align-items: center;
     height: 580px;
     width: 100%;
 }
-
-
+.key{
+    max-width: 896px;
+    height: 871px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.wer-1{
+    max-width:896px;
+    height: 496px;
+    width: 90%;
+    margin-left: 30px;
+}
+.we{
+    width: 90%;
+    align-items: center;
+}
+.conte-2{
+    max-width: 897px;
+    height: 674;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 40px;
+}
 
 
 }
@@ -590,5 +640,26 @@ align-items: center;
     align-items: center;
     justify-content: center;
 }
-
+.wer-1{
+    width:334px;
+    height: 886px;
+    width: 90%;
+    margin-left: 30px;
+    flex-direction: column;
+}
+.we{
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.career{
+    display: none;
+}
 }
